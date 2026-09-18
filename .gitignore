@@ -1,0 +1,41 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.autosave
+
+# Simulink
+*.slxc
+*.slx.bak
+*.slx.original
+slprj/
+sccprj/
+codegen/
+*.slxc.autosave
+
+# MATLAB workspace / logs
+*.log
+pathdef.m
+resources/
+
+# Reinforcement Learning outputs (keep only curated agent under agents/)
+savedAgents/
+Agent*.mat
+!agents/good_agent.mat
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out

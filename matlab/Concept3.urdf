@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Concept3">
+
+
+	<link name="world">
+	</link>
+
+    <link name="c3l1">
+        <inertial>
+            <origin xyz="8.526512829121202e-16 -0.0037584313507201374 0.14346915449423236" rpy="0.0 -0.0 0.0" />
+            <mass value="10" />
+            <inertia ixx="0.093957645" iyy="0.092533628" izz="0.023952962" ixy="0" iyz="0.003822612" ixz="0" />
+        </inertial>
+        <visual name="c3l1_visual">
+            <origin xyz="8.526512829121202e-16 1.0658141036401502e-16 2.1316282072803005e-16" rpy="8.701290973582882e-16 4.996003610813204e-16 4.93038065763133e-32" />
+            <geometry>
+                <mesh filename="meshes/c3l1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="c3l1_collision">
+            <origin xyz="8.526512829121202e-16 1.0658141036401502e-16 2.1316282072803005e-16" rpy="8.701290973582882e-16 4.996003610813204e-16 4.93038065763133e-32" />
+            <geometry>
+                <mesh filename="meshes/c3l1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="c3l2">
+        <inertial>
+            <origin xyz="0.0 0.006585910132475519 0.06576544520774308" rpy="0.0 4.3180842775472223e-78 0.0" />
+            <mass value="5" />
+            <inertia ixx="0.013269823" iyy="0.011773252 " izz="0.011031115" ixy="0" iyz="0.000312253" ixz="0" />
+        </inertial>
+        <visual name="c3l2_visual">
+            <origin xyz="0.0 0.0 0.07500000000000101" rpy="-1.5707963267948966 -7.077671781985379e-16 -1.2325951644078318e-31" />
+            <geometry>
+                <mesh filename="meshes/c3l2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="c3l2_collision">
+            <origin xyz="0.0 0.0 0.07500000000000101" rpy="-1.5707963267948966 -7.077671781985379e-16 -1.2325951644078318e-31" />
+            <geometry>
+                <mesh filename="meshes/c3l2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="c3l3">
+        <inertial>
+            <origin xyz="0.8249999999999992 -1.1457501614131616e-15 0.07500000000000127" rpy="0.0 -0.0 1.0947644252537636e-47" />
+            <mass value="70" />
+            <inertia ixx="0.135221913" iyy="18.786878431" izz="18.780968309" ixy="0" iyz="0" ixz="-0.065405352 " />
+        </inertial>
+        <visual name="c3l3_visual">
+            <origin xyz="0.0 -9.681144774731366e-16 0.0" rpy="2.1704621884219855e-16 -1.670348444641218e-15 -2.0816681711721742e-16" />
+            <geometry>
+                <mesh filename="meshes/c3l3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="c3l3_collision">
+            <origin xyz="0.0 -9.681144774731366e-16 0.0" rpy="2.1704621884219855e-16 -1.670348444641218e-15 -2.0816681711721742e-16" />
+            <geometry>
+                <mesh filename="meshes/c3l3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="c3l4">
+        <inertial>
+            <origin xyz="0.8249999999999994 5.861977570020827e-16 0.07500000000000143" rpy="0.0 -0.0 9.588073174408787e-94" />
+            <mass value="70" />
+            <inertia ixx="0.135221913" iyy="18.786878431" izz="18.780968309" ixy="0" iyz="0" ixz="-0.065405352 " />
+		</inertial>
+        <visual name="c3l4_visual">
+            <origin xyz="0.0 7.105427357601002e-17 8.526512829121202e-16" rpy="-2.795132682188865e-17 -5.878809956316921e-16 6.245004513516519e-16" />
+            <geometry>
+                <mesh filename="meshes/c3l4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="c3l4_collision">
+            <origin xyz="0.0 7.105427357601002e-17 8.526512829121202e-16" rpy="-2.795132682188865e-17 -5.878809956316921e-16 6.245004513516519e-16" />
+            <geometry>
+                <mesh filename="meshes/c3l4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="c3l5">
+        <inertial>
+            <origin xyz="0.0 -0.006585910132474578 0.0657654452077432" rpy="0.0 -0.0 8.636168555094445e-78" />
+            <mass value="5" />
+            <inertia ixx="0.013269823" iyy="0.011031115" izz="0.011773252" ixy="0" iyz="0.000312253" ixz="0" />
+        </inertial>
+        <visual name="c3l5_visual">
+            <origin xyz="0.0 1.0480505352461477e-15 0.07500000000000114" rpy="-1.6258281659347372e-16 1.6937806807007838e-14 6.106226635438358e-16" />
+            <geometry>
+                <mesh filename="meshes/c3l5.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="c3l5_collision">
+            <origin xyz="0.0 1.0480505352461477e-15 0.07500000000000114" rpy="-1.6258281659347372e-16 1.6937806807007838e-14 6.106226635438358e-16" />
+            <geometry>
+                <mesh filename="meshes/c3l5.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="c3l6">
+        <inertial>
+            <origin xyz="1.7053025658242404e-15 0.006585910132477153 0.06576544520774098" rpy="0.0 -0.0 0.0" />
+            <mass value="5" />
+            <inertia ixx="0.013269823" iyy="0.011773252" izz="0.011031115" ixy="0" iyz="0.000312253" ixz="0" />
+        </inertial>
+        <visual name="c3l6_visual">
+            <origin xyz="1.7053025658242404e-15 1.5631940186722204e-15 0.0749999999999989" rpy="-1.5707963267948968 1.0304257447302252e-15 -1.6937806807007838e-14" />
+            <geometry>
+                <mesh filename="meshes/c3l6.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="c3l6_collision">
+            <origin xyz="1.7053025658242404e-15 1.5631940186722204e-15 0.0749999999999989" rpy="-1.5707963267948968 1.0304257447302252e-15 -1.6937806807007838e-14" />
+            <geometry>
+                <mesh filename="meshes/c3l6.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="c3l7">
+        <inertial>
+            <origin xyz="0.0004721742794419015 1.1102230246251565e-15 0.08749355081144827" rpy="0.0 -0.0 0.0" />
+            <mass value="15" />
+            <inertia ixx="0.051234919" iyy="0.051792820" izz="0.038875377" ixy="0" iyz="0" ixz="-0.000499574 " />
+        </inertial>
+        <visual name="c3l7_visual">
+            <origin xyz="-5.684341886080802e-16 1.1102230246251565e-15 1.5631940186722204e-15" rpy="-5.24878483234987e-16 -5.217678062940007e-16 1.0304257447302283e-15" />
+            <geometry>
+                <mesh filename="meshes/c3l7.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="c3l7_collision">
+            <origin xyz="-5.684341886080802e-16 1.1102230246251565e-15 1.5631940186722204e-15" rpy="-5.24878483234987e-16 -5.217678062940007e-16 1.0304257447302283e-15" />
+            <geometry>
+                <mesh filename="meshes/c3l7.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Concept3">
+        <inertial>
+            <origin xyz="-0.0050710428497891214 -1.2525758052656716e-05 -1.78168660268183e-05" rpy="0.0 0.0 0.0" />
+            <mass value="3000" />
+            <inertia ixx="776.884687974 " iyy="2512.766344178" izz="2739.139931228" ixy="0.050918524" iyz="0.012030842 " ixz="0.072434772" />
+        </inertial>
+        <visual name="Concept3_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/Concept3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Concept3_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/Concept3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+	
+		
+	<joint name="world_to_base" type="floating">
+        <parent link="world"/>
+		<child link="Concept3"/>
+		<origin xyz="0 0 0" rpy="0 0 0"/>
+		</joint>
+		
+	
+    <joint name="Concept3_회전-1" type="continuous">
+        <origin xyz="1.35 0.225 0.325" rpy="0.0 -0.0 0.0" />
+        <parent link="Concept3" />
+        <child link="c3l1" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="c3l1_회전-2" type="continuous">
+        <origin xyz="0.0 -0.075 0.245" rpy="1.5707963267948966 -9.860761315262648e-32 1.4026901369550394e-48" />
+        <parent link="c3l1" />
+        <child link="c3l2" />
+        <axis xyz="-1.4026901369550394e-48 4.3790577010150533e-47 1.0" />
+    </joint>
+    <joint name="c3l2_회전-3" type="continuous">
+        <origin xyz="0.0 0.075 0.075" rpy="-1.5707963267948966 9.86076131526265e-32 -9.860761315262646e-32" />
+        <parent link="c3l2" />
+        <child link="c3l3" />
+        <axis xyz="5.473822126268817e-48 0.0 0.9999999999999999" />
+    </joint>
+    <joint name="c3l3_회전-4" type="continuous">
+        <origin xyz="1.6500000000000001 0.0 0.15" rpy="-5.069189531742769e-81 1.9721522630525295e-31 -7.3955709864472e-32" />
+        <parent link="c3l3" />
+        <child link="c3l4" />
+        <axis xyz="-1.9721522630525295e-31 0.0 1.0" />
+    </joint>
+    <joint name="c3l4_회전-5" type="continuous">
+        <origin xyz="1.6500000000000001 0.0 0.15" rpy="-4.937594190011108e-63 -9.860761315262648e-32 -1.2325951644078088e-31" />
+        <parent link="c3l4" />
+        <child link="c3l5" />
+        <axis xyz="-9.860761315262648e-32 0.0 1.0" />
+    </joint>
+    <joint name="c3l5_회전-6" type="continuous">
+        <origin xyz="0.0 -0.075 0.075" rpy="1.5707963267948966 -9.860761315262648e-32 9.860761315248625e-32" />
+        <parent link="c3l5" />
+        <child link="c3l6" />
+        <axis xyz="1.401645021846323e-43 -1.401298464324817e-45 1.0" />
+    </joint>
+    <joint name="c3l6_회전-7" type="continuous">
+        <origin xyz="0.0 0.075 0.075" rpy="-1.5707963267948966 4.286302351388106e-32 0.0" />
+        <parent link="c3l6" />
+        <child link="c3l7" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+</robot>
