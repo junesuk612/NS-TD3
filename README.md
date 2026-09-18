@@ -5,6 +5,8 @@
 
 A **TD3 reinforcement learning** agent that learns the **1-D null-space parameter α(t)** of a 7-DOF free-floating space manipulator, coordinating end-effector tracking with base attitude preservation under **payload-induced inertia changes**.
 
+> 🔗 **Prequel project**: [planar-manipulator-nullspace](https://github.com/junesuk612/planar-manipulator-nullspace) — 2D validation of the same null-space TD3 idea on 3- and 4-link planar manipulators.
+
 ---
 
 ## Demo
